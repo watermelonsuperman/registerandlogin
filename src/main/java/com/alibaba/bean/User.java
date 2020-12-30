@@ -1,7 +1,7 @@
 package com.alibaba.bean;
 
 /**
- * 用户信息
+ * 用户信息 我的
  */
 public class User {
     private Long id;
