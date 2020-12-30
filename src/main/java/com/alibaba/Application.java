@@ -3,6 +3,9 @@ package com.alibaba;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @SpringBootApplication相当于3个注解
  * 1. @Configuration  定义一个配置类
@@ -13,7 +16,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        //SpringApplication.run(Application.class,args);
+        System.out.println(8%10);
     }
 
 }

@@ -27,7 +27,6 @@ public class UserService {
             if(existUser != null){
                 //如果用户名已存在
                 result.setMsg("用户名已存在");
-
             }else{
                 userMapper.regist(user);
                 //System.out.println(user.getId());

@@ -16,7 +16,6 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-
     /**
      * 注册
      * @param user 参数封装
